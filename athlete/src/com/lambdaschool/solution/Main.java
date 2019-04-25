@@ -28,5 +28,15 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
+
+        //Court Stretch goal
+
+        CourtInjector courtInjector;
+        CourtProcessor courtProcessor;
+
+        courtInjector = new BaseballCourtInjector();
+        courtProcessor = courtInjector.getProcessor();
+        courtProcessor.printCourt();
+
     }
 }
