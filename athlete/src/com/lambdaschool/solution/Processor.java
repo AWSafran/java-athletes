@@ -2,5 +2,6 @@ package com.lambdaschool.solution;
 
 public interface Processor
 {
-    String displayAthlete();
+    //All processors have a displayAthlete() method that returns a string
+    void displayAthlete();
 }
